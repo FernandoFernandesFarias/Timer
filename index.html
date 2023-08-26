@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./assets/clock-solid.svg" type="image/x-icon">
+  </head>
+  <body>
+
+    <section>
+      <h1 id="watch">00:00:00</h1>
+      <div class="botoes">
+        <button class="btn-start" onclick="start()" id="startButton">Start</button>
+        <button class="btn-pause" onclick="pause()">Pause</button>
+        <button class="btn-clear" onclick="reset()">Clear</button>
+      </div>
+    </section>
+    <p>
+      <i class="fa-solid fa-clock fa-2xl"></i>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
